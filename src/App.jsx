@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Home from './Home.jsx';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +18,12 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>ORGONITAS</h1>
+          <h1>ORGONITAS BELI</h1>
           <p>
+             <div className="App">
+      <h5>Lina Mazzola</h5>
+      <Home/>
+    </div>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
