@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import heroImg from './assets/Logo.png'
 import './App.css'
 import Home from './Home.jsx';
 
@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <section id="center">
-        <div className="hero">
+        <div className="logo">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <img src={reactLogo} className="framework" alt="React Logo" />
+          <img src={viteLogo} className="vite" alt="Vite Logo" />
         </div>
         <div>
           <h1>ORGONITAS BELI</h1>
