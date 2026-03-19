@@ -4,7 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/Logo.png'
 import './App.css'
 import Home from './Home.jsx';
-import AppointmentCalendar from './AppointmentCalendar.jsx';
+
 
 
 function App() {
@@ -20,15 +20,13 @@ function App() {
         </div>
         <div>
           <h1>ORGONITAS BELI</h1>
-          <div className="App">
-            <h5>Lina Mazzola</h5>
-            <Home />
-          </div>
           <p>
-            Si deseas personalizar tus piezas de orgonitas o resolver alguna duda, agenda una cita telefonica para ser atendida por nuestro equipo.
+             <div className="App">
+      <h5>Lina Mazzola</h5>
+      <Home/>
+    </div>
+            Si deseas personalizar tus piezas de orgonitas o resolver alguna duda, agenda una cita telefonica para ser atendida por nuestro equipo <code>src/App.jsx</code> 
           </p>
-
-          <AppointmentCalendar />
         </div>
         <button
           className="counter"
